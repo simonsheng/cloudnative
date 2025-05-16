@@ -2,74 +2,74 @@
 
 ## Chapter 1: The Path to Containerized Application 
 
-### 01_introduction
+- [x] 01_introduction
 
-- microservice
-- container
-- service governance
-- immutable platform
-- declarative API
-- devops
+  - microservice
+  - container
+  - service governance
+  - immutable platform
+  - declarative API
+  - devops
 
-### 02_challenges in deployment
+- [x] 02_challenges in deployment
 
-- The deployment process of the application
-  - For example, a Java web application deplyed to Tomcat using a WAR file.
-- Application scaling(up and down)
-- Problems in deploying the application across different environments
+  - The deployment process of the application
+    - For example, a Java web application deplyed to Tomcat using a WAR file.
+  - Application scaling(up and down)
+  - Problems in deploying the application across different environments
 
-### 03_evolution of computing resources
-### 04_evolution of computing resources_virtual machine
-### 05_evolution of computing resources_container
-### 06_What is container
-### 07_What problem does container resolve
-### 08_History of container
+- [x] 03_evolution of computing resources
+- [x] 04_evolution of computing resources_virtual machine
+- [x] 05_evolution of computing resources_container
+- [x] 06_What is container
+- [x] 07_What problem does container resolve
+- [x] 08_History of container
 
 ## Chapter 2: Core Linux kernel technologies underpin containerization
 
-### 09 Introduction of container
-### 10 Container Technology: From chroot to Kubernetes
+- [x] 09 Introduction of container
+- [x] 10 Container Technology: From chroot to Kubernetes
 
-- chroot
-- FreeBSD Jails
-- Linux VServer
-- Solaris
-- OpenVZ
+  - chroot
+  - FreeBSD Jails
+  - Linux VServer
+  - Solaris
+  - OpenVZ
 
-### 11 NameSpace
-### 12 The classification of NameSpace of Linux
-### * 13 Use Cases of Network Namespaces in Linux 
-### 14 CGroups
-### 15 Four Key Functions of Groups
-### * 16 Use Case of CGroups
+- [x] 11 NameSpace
+- [x] 12 The classification of NameSpace of Linux
+- [x] * 13 Use Cases of Network Namespaces in Linux 
+- [x] 14 CGroups
+- [x] 15 Four Key Functions of Groups
+- [x] * 16 Use Case of CGroups
 chapter 3: 章节3:Docker生态架构及部署 (3节)
-### 17 01_容器管理工具_Docker生态架构及部署_生态架构介绍
-- [ ] 课时18 02_管理管理工具_Docker生态架构及部署_Docker安装_YUM安装方式 15分51秒
-- [ ] 课时19 03_管理管理工具_Docker生态架构及部署_Docker安装_二进制安装方式 10分29秒
-- [ ] 课时22 docker run命令 8分43秒
-- [ ] 课时23 docker ps命令 1分50秒
-- [ ] 课时24 docker inspect命令 3分19秒
-- [ ] 课时25 docker exec命令 2分26秒
-- [ ] 课时26 docker attach命令 3分26秒
-- [ ] 课时27 docker stop命令 2分2秒
-- [ ] 课时28 docker start命令 1分56秒
-- [ ] 课时29 docker top命令 4分15秒
-- [ ] 课时30 docker rm命令 7分56秒
+- [x] 17 01_容器管理工具_Docker生态架构及部署_生态架构介绍
+- [x] 课时18 02_管理管理工具_Docker生态架构及部署_Docker安装_YUM安装方式 15分51秒
+- [x] 课时19 03_管理管理工具_Docker生态架构及部署_Docker安装_二进制安装方式 10分29秒
+- [x] 课时22 docker run命令 8分43秒
+- [x] 课时23 docker ps命令 1分50秒
+- [x] 课时24 docker inspect命令 3分19秒
+- [x] 课时25 docker exec命令 2分26秒
+- [x] 课时26 docker attach命令 3分26秒
+- [x] 课时27 docker stop命令 2分2秒
+- [x] 课时28 docker start命令 1分56秒
+- [x] 课时29 docker top命令 4分15秒
+- [x] 课时30 docker rm命令 7分56秒
 ## 章节5:容器镜像介绍及应用 (14节)
-- [ ] 课时31 docker容器镜像查看 6分27秒
-- [ ] 课时32 docker容器镜像搜索 6分6秒
-- [ ] 课时33 docker容器镜像下载 4分37秒
-- [ ] 课时34 docker容器镜像删除 4分25秒
-- [ ] 课时35 docker容器镜像定义 3分58秒
-- [ ] 课时36 联合文件系统 3分13秒
-- [ ] 课时37 存储驱动方式 7分31秒
-- [ ] 课时38 docker容器镜像分层 14分31秒
-- [ ] 课时39 docker容器与镜像之间的关系 7分10秒
-- [ ] 课时40 docker容器中添加内容后容器与镜像的变化 8分41秒
-- [ ] 课时41 docker commit命令 11分45秒
-- [ ] 课时42 docker save命令 2分18秒
-- [ ] 课时43 docker load命令 2分31秒
-- [ ] 课时44 docker export与docker import命令 4分59秒
+- [x] 课时31 docker容器镜像查看 6分27秒
+- [x] 课时32 docker容器镜像搜索 6分6秒
+- [x] 课时33 docker容器镜像下载 4分37秒
+- [x] 课时34 docker容器镜像删除 4分25秒
+- [x] 课时35 docker容器镜像定义 3分58秒
+- [x] 课时36 联合文件系统 3分13秒
+- [x] 课时37 存储驱动方式 7分31秒
+- [x] 课时38 docker容器镜像分层 14分31秒
+- [x] 课时39 docker容器与镜像之间的关系 7分10秒
+- [x] 课时40 docker容器中添加内容后容器与镜像的变化 8分41秒
+- [x] 课时41 docker commit命令 11分45秒
+- [x] 课时42 docker save命令 2分18秒
+- [x] 课时43 docker load命令 2分31秒
+- [x] 课时44 docker export与docker import命令 4分59秒
 ## 章节6:Docker容器镜像加速器及容器镜像仓库 (4节) 
 - [ ] 课时45 容器镜像加速器 9分48秒
 - [ ] 课时46 容器镜像仓库 Docker Hub 14分35秒
